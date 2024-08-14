@@ -8,11 +8,13 @@
 ## Cmds
 
 - `semanage fcontext -a -t public_content_t /etc/bogus`
+- `semanage fcontext -a -t public_content_t "/files/(.*)?"`
 - getenforce
 - setenforce
 - `restorecon -v /etc/bogus`
 - fixfiles
 - booleans
+- chcon
 - setsebool
 - sepolicy
 - system-config-selinux

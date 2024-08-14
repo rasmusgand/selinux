@@ -13,6 +13,8 @@
 - sesearch
 - getenforce
 - setenforce
+- `semodule -l`
+- `seinfo -c`
 - `restorecon -v /etc/bogus`
 - fixfiles
 - booleans

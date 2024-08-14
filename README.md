@@ -1,4 +1,4 @@
-# selinux
+# SE Linux
 
 
 ## Files
@@ -12,9 +12,21 @@
 - setenforce
 - restorecon
 - fixfiles
+- booleans
+- setsebool
+- sepolicy
+- system-config-selinux
+- togglesebool
+- setfiles
+- sepolicy
 
 
 ## Man
 
-- selinux
+- man -k selinux
+- man httpd_selinux
+
+## RPMs
+
+- 
   

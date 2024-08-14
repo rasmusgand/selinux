@@ -7,10 +7,10 @@
   
 ## Cmds
 
-- semanage
+- `semanage fcontext -a -t public_content_t /etc/bogus`
 - getenforce
 - setenforce
-- restorecon
+- `restorecon -v /etc/bogus`
 - fixfiles
 - booleans
 - setsebool
@@ -21,6 +21,7 @@
 - sepolicy
 - audit2allow
 - semodule
+- sealert
 
 
 ## Man
@@ -30,9 +31,9 @@
 
 ## RPMs
 
-- 
+- selinux-policy-doc
 
 ## Misc
 
-  egrep AVC /var/log/audit.log
+`egrep AVC /var/log/audit.log`
 

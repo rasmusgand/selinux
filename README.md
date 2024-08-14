@@ -19,6 +19,8 @@
 - togglesebool
 - setfiles
 - sepolicy
+- audit2allow
+- semodule
 
 
 ## Man
@@ -29,4 +31,8 @@
 ## RPMs
 
 - 
-  
+
+## Misc
+
+  egrep AVC /var/log/audit.log
+
